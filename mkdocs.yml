@@ -1,0 +1,44 @@
+site_name: QIC-wiki
+site_url: https://yourname.github.io/wiki/
+repo_url: https://github.com/yourname/wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh  # 设置中文
+  features:
+    - navigation.tabs # 顶部导航栏
+    - navigation.sections # 左侧目录折叠
+    - navigation.expand # 默认展开
+    - toc.integrate # 也就是文章内的目录整合到左侧
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - content.code.copy # 代码块复制按钮
+  palette:
+    - scheme: default # 亮色模式
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至暗色模式
+    - scheme: slate # 暗色模式 (夜间模式)
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至亮色模式
+
+# 支持数学公式 (OI Wiki 必备)
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
