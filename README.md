@@ -2,8 +2,8 @@
 
 ## 项目简介
 
-欢迎来到 QIC Wiki 项目！这是一个基于 [MkDocs](https://www.mkdocs.org/) 和 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 主题构建的个人知识库/Wiki 系统。
-本项目开始于2025年，目标是搭建属于QIC（Qian Xuesen Innovation and Expansion Class，作者自己想的简称 doge）的知识库，
+欢迎来到 QIE Wiki 项目！这是一个基于 [MkDocs](https://www.mkdocs.org/) 和 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 主题构建的个人知识库/Wiki 系统。
+本项目开始于2025年，目标是搭建属于QIE（Qian Xuesen Innovation and Expansion Class，作者自己想的简称 doge）的知识库，
 服务于后来的学弟学妹，欢迎钱班的大家参与开发，作者会一直维护下去的
 
 ## 🚀 快速开始
@@ -21,8 +21,8 @@
 打开终端/命令行，克隆本项目到本地：
 
 ```bash
-git clone https://github.com/Winter-Raymond/QIC-wiki.git
-cd QIC-wiki
+git clone https://github.com/Winter-Raymond/QIE-wiki.git
+cd QIE-wiki
 ```
 
 ### 3. 安装依赖
@@ -49,7 +49,7 @@ mkdocs serve
 
 ## 📝 贡献指南
 
-我们非常欢迎你为 QIC Wiki 添加内容！
+我们非常欢迎你为 QIE Wiki 添加内容！
 
 ### 项目结构
 
@@ -96,7 +96,7 @@ git push
 本项目使用 **GitHub Actions** 进行自动部署。
 
 *   **自动构建**：每当你将代码 `push` 到 `master` (或 `main`) 分支时，GitHub Actions 会自动触发构建流程。但是按照规范提交，一般会提交再新分支上，这时候由作者审核提交后，再把相关分支合并到主分支才能再在线网站看到变化。
-*   **发布页面**：构建完成的内容会自动发布到 `gh-pages` 分支，并更新在线网站，该在线网页地址为：https://winter-raymond.github.io/QIC-wiki/
+*   **发布页面**：构建完成的内容会自动发布到 `gh-pages` 分支，并更新在线网站，该在线网页地址为：https://winter-raymond.github.io/QIE-wiki/
 *   **无需手动操作**：请勿手动运行 `mkdocs gh-deploy`，让 CI/CD 自动处理即可。
 
 ## 📄 许可证

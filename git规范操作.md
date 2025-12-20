@@ -14,7 +14,7 @@
 git clone <仓库地址>
 cd <项目文件夹名>
 ```
-本仓库地址是 https://github.com/Winter-Raymond/QIC-wiki.git
+本仓库地址是 https://github.com/Winter-Raymond/QIE-wiki.git
 
 
 **2. 切换并更新主分支 (Checkout & Pull)**

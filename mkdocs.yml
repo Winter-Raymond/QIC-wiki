@@ -1,6 +1,6 @@
-site_name: QIC-wiki
-site_url: https://yourname.github.io/wiki/
-repo_url: https://github.com/yourname/wiki
+site_name: QIE-wiki
+site_url: https://Winter-Raymond.github.io/QIE-wiki/
+repo_url: https://github.com/Winter-Raymond/QIE-wiki.git
 edit_uri: edit/main/docs/
 
 theme:
@@ -46,4 +46,4 @@ extra_javascript:
 nav:
   - 首页: index.md
   - 计算机科学:
-      - 我的新文章: 计算机科学/python/基础使用.md
+      - python基础: 计算机科学/python/基础使用.md
